@@ -3,7 +3,7 @@ import qbs
 CppApplication {
     consoleApplication: true
     files: [
-        "03.cpp",
+        "01.cpp",
     ]
 
     Group {     // Properties for the produced executable
