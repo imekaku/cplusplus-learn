@@ -3,7 +3,7 @@ import qbs
 CppApplication {
     consoleApplication: true
     files: [
-        "c-exception.c",
+        "50-cplusplus.cpp",
     ]
 
     Group {     // Properties for the produced executable
