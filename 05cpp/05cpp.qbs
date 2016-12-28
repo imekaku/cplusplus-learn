@@ -3,9 +3,7 @@ import qbs
 CppApplication {
     consoleApplication: true
     files: [
-        "04.cpp",
-        "nocopyable.cpp",
-        "nocopyable.h",
+        "03.cpp",
     ]
 
     Group {     // Properties for the produced executable

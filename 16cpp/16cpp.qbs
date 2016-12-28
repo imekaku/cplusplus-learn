@@ -3,9 +3,9 @@ import qbs
 CppApplication {
     consoleApplication: true
     files: [
-        "04.cpp",
-        "nocopyable.cpp",
-        "nocopyable.h",
+        "countobject.cpp",
+        "countobject.h",
+        "main.cpp",
     ]
 
     Group {     // Properties for the produced executable

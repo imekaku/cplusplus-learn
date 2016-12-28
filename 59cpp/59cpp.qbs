@@ -2,11 +2,7 @@ import qbs
 
 CppApplication {
     consoleApplication: true
-    files: [
-        "04.cpp",
-        "nocopyable.cpp",
-        "nocopyable.h",
-    ]
+    files: "main.cpp"
 
     Group {     // Properties for the produced executable
         fileTagsFilter: product.type
